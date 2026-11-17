@@ -1,0 +1,11 @@
+// Shared build settings for all targets.
+//
+// BUNDLE_ID_PREFIX determines the bundle IDs (<prefix>.zuhause, <prefix>.zuhause.widget)
+// and the App Group (group.<prefix>.zuhause). Set your own prefix in Config/Local.xcconfig,
+// which is not committed (see .gitignore), e.g.:
+//
+//     BUNDLE_ID_PREFIX = de.deinname
+
+BUNDLE_ID_PREFIX = com.example
+
+#include? "Local.xcconfig"

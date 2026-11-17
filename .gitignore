@@ -1,0 +1,15 @@
+# Personal settings (own bundle ID prefix), see Config/Base.xcconfig
+Config/Local.xcconfig
+
+# Built apps
+*.ipa
+iPhone-Versionen/
+
+# Xcode user data and build output
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+
+# macOS
+.DS_Store
